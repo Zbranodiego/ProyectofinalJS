@@ -1,0 +1,109 @@
+* {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 200px;
+}
+
+.titulo {
+    background-color: #ff5475;
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    
+}
+
+body {
+    margin-top: 100px;
+    margin-right: 500px;
+    margin-left: 500px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid #ff5475;
+    background-image: url(esta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+button {
+    height: 45px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #ff5475;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #3c3c3c;
+    
+}
+
+button:hover {
+    background-color: #fa97ab;
+}
+
+button:active {
+    background-color: #fa97ab;
+    box-shadow: 0 5px #252525;
+    transform: translateY(4px);
+}
+
+.que_hacer{
+display: block;
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 55px;
+width: 400px;
+height: 35px;
+background-color:#ffffff;
+border-color: #ff5475;
+color: #ff5475;
+border-style: solid;
+border-radius: 25px;
+cursor: pointer;
+font-size:  30px;
+text-align: center;
+
+}
+
+.agregar{
+    margin-bottom: 30px;
+}
+
+.eliminarTodo{
+    margin-top: 60px;
+}
+
+
+.comentarios{
+    color: #ff5475;
+    font-size: 40px;
+    background-color: #ffffff;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 25px;
+}
+
+.contenedor{
+    padding-top: 15px;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+    margin-top: 80px;
+    text-align: center;
+    background-color: #ff5475;
+    color: white;
+    border-radius: 5px;
+}
+#bt{
+    background-color: #f20433;
+    margin-top: 8px;
+}
+#frase{
+    font-size: 30px;
+}
